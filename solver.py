@@ -6,10 +6,9 @@ __author__ = "byronhulcher"
 
 # Game board, please use None for empty spaces!
 board = [
-	["o", None, "x"], 
-	["o", "x", None], 
-	["x", "o", "x"],
-	["x", "o", "x"]
+	["x", None, "x"], 
+	["o", "x", "o"], 
+	["x", "o", "o"],
 ]
 
 # The number of spaces which must contain the same value in a row to win
